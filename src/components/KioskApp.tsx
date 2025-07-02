@@ -134,6 +134,18 @@ const KioskApp = () => {
         <main className="flex-1 flex items-center justify-center p-6">
           {renderCurrentScreen()}
         </main>
+
+        {/* Footer */}
+        <footer className="p-4 flex items-center justify-center">
+          <div className="flex items-center gap-2 text-muted-foreground text-sm">
+            <span>Powered by</span>
+            <img 
+              src="/lovable-uploads/0f314711-ba28-4bd0-8920-bc300fc683df.png" 
+              alt="Nova Flare Connect" 
+              className="h-6"
+            />
+          </div>
+        </footer>
       </div>
     </div>
   );
